@@ -29,7 +29,7 @@ Sub Test()
     RangeToCopy.Copy wb.Sheets(1).Range("A2")
 
     'Save the new workbook, and close it
-    wb.SaveAs ThisWorkbook.Path & "\epr_list_" & WorkbookCounter, FileFormat:=xlCSV
+          wb.SaveAs ThisWorkbook.Path & "\sub_file_" & WorkbookCounter, FileFormat:=xlCSV
     wb.Close
 
     'Increment file counter
