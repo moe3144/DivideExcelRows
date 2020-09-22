@@ -6,6 +6,7 @@ How to Use:
 - Save all the rows in 1 Excel Worksheet.
 - From Developer Tab --> Visual Basic
 - Get the code in divideExcelRows.vb in the repo and paste it there.
+- Run the script in Excel Visual Basic.
 
 Change following variables as needed:
 - WorkbookCounter: Sub file name will be suffexied by the sub file index. Default is 1
